@@ -9,6 +9,7 @@ Se recopilaron los sonidos y se realizaron los dibujos, incluso se entrenó a la
 ![image](https://github.com/Toomanypanchos/audiv027-2023-2/assets/89993556/b3f4ae1f-ac21-483f-ae76-1ab5fd83afa3)
 ![image](https://github.com/Toomanypanchos/audiv027-2023-2/assets/89993556/84639235-cca9-4164-9a7c-17a7c8d1dc30)
 Realizacion propia
+
 ![image](https://github.com/Toomanypanchos/audiv027-2023-2/assets/89993556/fe25a88f-8d14-40b8-a40e-869fd54fa781)
 
 ---------------------------------------------------------
@@ -30,6 +31,7 @@ los que luego de identificados se traduzcan al abecedario construido por nuestra
 
 Una vez concretada la dirección del proyecto se hicieron los siguientes pasos en orden.
  -Se recolectaron los audios de cada especie y se ordenaron:
+ 
  ![image](https://github.com/Toomanypanchos/audiv027-2023-2/assets/89993556/77c166fe-c5c6-421c-ad8c-73b8c56cc868)
 
 -Se alimento a la IA con los audios recolectados:
@@ -37,14 +39,17 @@ Una vez concretada la dirección del proyecto se hicieron los siguientes pasos e
 
 algo que destacar de este proceso fue la manipulación los archivos para incrementar la cantidad de muestras con las que alimentábamos al modelo.
 esto se hizo cortando los sonidos en diferentes momentos de los cantos de la aves, pensando que asi la IA podría reconocer secciones de los cantos también y no solo uno completo.
+
 ![image](https://github.com/Toomanypanchos/audiv027-2023-2/assets/89993556/b7fcf260-b4ce-4a5f-b97d-ef5ccffe986d)
 
 -Se entreno la IA con 200 épocas:
 ![image](https://github.com/Toomanypanchos/audiv027-2023-2/assets/89993556/99fb5783-a7b6-4518-a080-1f33ccabffdd)
+
 Con el modelo entrenado podíamos proceder a escribir el código para utilizarla.
 
 Codigo
 nosotros escribiendo el código 
+
 ![image](https://github.com/Toomanypanchos/audiv027-2023-2/assets/89993556/fa755f33-4ae5-4cc9-932b-202aea8a0075)
 
 
