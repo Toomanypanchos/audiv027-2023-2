@@ -11,8 +11,9 @@ Se recopilaron los sonidos y se realizaron los dibujos, incluso se entrenó a la
 Realizacion propia
 ![image](https://github.com/Toomanypanchos/audiv027-2023-2/assets/89993556/fe25a88f-8d14-40b8-a40e-869fd54fa781)
 
-Durante este proceso nos dimos cuenta de que era mucho mas interesante ser capaces de dicernir entre diversas especies de aves. tomando la decision de cambiar el rpoyecto, manteniendo un enfoque similar, pero solo involucrando sonidos de aves.
-Esta decsicion se toma en aprte leugo de conversaciones con una compañera que esta realizando su proeycto de titulo respecto a un tema similar.
+Durante este proceso nos dimos cuenta de que era mucho más interesante ser capaces de discernir entre diversas especies de aves. y no considerar a el sonido de la naturaleza como uno solo. 
+Tomando la decisión de cambiar el proyecto, manteniendo un enfoque similar, pero solo involucrando sonidos de aves.
+Esta decisión se toma en parte luego de conversaciones con una compañera que está realizando su proyecto de título respecto a un tema similar.
 
 pequeño resumen del proyecto:
 
@@ -22,6 +23,22 @@ Sitúa una ruta de exploración al cerro la Cruz en la precordillera andina-metr
 
 [''Afiches''.pdf](https://github.com/Toomanypanchos/audiv027-2023-2/files/13454963/Afiches.pdf)
 
+Por lo que en el proyecto actual se busca entrenar a una IA para que sea capaz de discernir entre especies de aves dependiendo de sus sonidos.
+los que luego de identificados se traduzcan al abecedario construido por nuestra amiga, letras que se escribirán, simulando un texto y creando párrafos que permitan generar un contexto visual de aquello que se escuchó y fue interpretado por la IA.
+
+Una vez concretada la dirección del proyecto se hicieron los siguientes pasos en orden.
+ -Se recolectaron los audios de cada especie y se ordenaron:
+ ![image](https://github.com/Toomanypanchos/audiv027-2023-2/assets/89993556/77c166fe-c5c6-421c-ad8c-73b8c56cc868)
+
+-Se alimento a la IA con los audios recolectados:
+![image](https://github.com/Toomanypanchos/audiv027-2023-2/assets/89993556/897a1bb3-075d-4401-97a0-b23678c7f038)
+algo que destacar de este proceso fue la manipulación los archivos para incrementar la cantidad de muestras con las que alimentábamos al modelo.
+esto se hizo cortando los sonidos en diferentes momentos de los cantos de la aves, pensando que asi la IA podría reconocer secciones de los cantos también y no solo uno completo.
+![image](https://github.com/Toomanypanchos/audiv027-2023-2/assets/89993556/b7fcf260-b4ce-4a5f-b97d-ef5ccffe986d)
+
+-Se entreno la IA con 200 épocas:
+![image](https://github.com/Toomanypanchos/audiv027-2023-2/assets/89993556/99fb5783-a7b6-4518-a080-1f33ccabffdd)
+Con el modelo entrenado podíamos proceder a escribir el código para utilizarla.
 
 
 texto
