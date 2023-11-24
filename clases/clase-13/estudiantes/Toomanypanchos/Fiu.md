@@ -7,8 +7,8 @@ Estas formas se irían superponiendo en un espacio para formar una composición,
 Se recopilaron los sonidos y se realizaron los dibujos, incluso se entrenó a la IA
 
 ![image](https://github.com/Toomanypanchos/audiv027-2023-2/assets/89993556/b3f4ae1f-ac21-483f-ae76-1ab5fd83afa3)
-![gorrion](https://github.com/Toomanypanchos/audiv027-2023-2/assets/89993556/e066f248-02d1-472b-b322-65e0a3100704)
-![Chincol](https://github.com/Toomanypanchos/audiv027-2023-2/assets/89993556/e3625aa6-b457-4cb9-a921-294504fab3f6)
+![image](https://github.com/Toomanypanchos/audiv027-2023-2/assets/89993556/84639235-cca9-4164-9a7c-17a7c8d1dc30)
+Realizacion propia
 ![image](https://github.com/Toomanypanchos/audiv027-2023-2/assets/89993556/fe25a88f-8d14-40b8-a40e-869fd54fa781)
 
 Durante este proceso nos dimos cuenta de que era mucho mas interesante ser capaces de dicernir entre diversas especies de aves. tomando la decision de cambiar el rpoyecto, manteniendo un enfoque similar, pero solo involucrando sonidos de aves.
