@@ -34,6 +34,7 @@ Una vez concretada la dirección del proyecto se hicieron los siguientes pasos e
 
 -Se alimento a la IA con los audios recolectados:
 ![image](https://github.com/Toomanypanchos/audiv027-2023-2/assets/89993556/897a1bb3-075d-4401-97a0-b23678c7f038)
+
 algo que destacar de este proceso fue la manipulación los archivos para incrementar la cantidad de muestras con las que alimentábamos al modelo.
 esto se hizo cortando los sonidos en diferentes momentos de los cantos de la aves, pensando que asi la IA podría reconocer secciones de los cantos también y no solo uno completo.
 ![image](https://github.com/Toomanypanchos/audiv027-2023-2/assets/89993556/b7fcf260-b4ce-4a5f-b97d-ef5ccffe986d)
@@ -41,6 +42,17 @@ esto se hizo cortando los sonidos en diferentes momentos de los cantos de la ave
 -Se entreno la IA con 200 épocas:
 ![image](https://github.com/Toomanypanchos/audiv027-2023-2/assets/89993556/99fb5783-a7b6-4518-a080-1f33ccabffdd)
 Con el modelo entrenado podíamos proceder a escribir el código para utilizarla.
+
+Codigo
+nosotros escribiendo el código 
+![image](https://github.com/Toomanypanchos/audiv027-2023-2/assets/89993556/fa755f33-4ae5-4cc9-932b-202aea8a0075)
+
+
+-Convertir letras a imágenes:
+ahora que el código es capaz de reconocer un sonido e ir a buscar la imagen que corresponde a ese sonido se "convirtió" cada letra en una imagen.
+
+![image](https://github.com/Toomanypanchos/audiv027-2023-2/assets/89993556/a7378acf-6e8e-4205-889e-672158e7febb)
+
 
 
 texto
