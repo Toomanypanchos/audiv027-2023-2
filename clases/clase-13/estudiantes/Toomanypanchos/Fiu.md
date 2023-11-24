@@ -11,11 +11,13 @@ Se recopilaron los sonidos y se realizaron los dibujos, incluso se entrenó a la
 Realizacion propia
 ![image](https://github.com/Toomanypanchos/audiv027-2023-2/assets/89993556/fe25a88f-8d14-40b8-a40e-869fd54fa781)
 
+---------------------------------------------------------
+
 Durante este proceso nos dimos cuenta de que era mucho más interesante ser capaces de discernir entre diversas especies de aves. y no considerar a el sonido de la naturaleza como uno solo. 
 Tomando la decisión de cambiar el proyecto, manteniendo un enfoque similar, pero solo involucrando sonidos de aves.
 Esta decisión se toma en parte luego de conversaciones con una compañera que está realizando su proyecto de título respecto a un tema similar.
 
-pequeño resumen del proyecto:
+##Pequeño resumen del proyecto:
 
 UNÍSONO es la publicación y edición de una especulación ecológica que se pregunta sobre la representación de la animalidad, de la relación comunicativa interespecie y la que surge entre los humanos para hacer ciencia, investigación y creación alrededor de la naturaleza. Surge a partir de la creación de un sistema de escritura experimental ECOS, una representación gráfica espontánea vinculada a la vocalización de las aves. 
 
