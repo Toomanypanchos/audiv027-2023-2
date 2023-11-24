@@ -52,7 +52,6 @@ Con el modelo entrenado podíamos proceder a escribir el código para utilizarla
 
 Codigo
 nosotros escribiendo el código 
-
 ![image](https://github.com/Toomanypanchos/audiv027-2023-2/assets/89993556/fa755f33-4ae5-4cc9-932b-202aea8a0075)
 
 
