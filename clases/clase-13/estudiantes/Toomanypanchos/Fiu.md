@@ -34,7 +34,9 @@ Una vez concretada la dirección del proyecto se hicieron los siguientes pasos e
  
  ![image](https://github.com/Toomanypanchos/audiv027-2023-2/assets/89993556/77c166fe-c5c6-421c-ad8c-73b8c56cc868)
 
+
 -Se alimento a la IA con los audios recolectados:
+
 ![image](https://github.com/Toomanypanchos/audiv027-2023-2/assets/89993556/897a1bb3-075d-4401-97a0-b23678c7f038)
 
 algo que destacar de este proceso fue la manipulación los archivos para incrementar la cantidad de muestras con las que alimentábamos al modelo.
