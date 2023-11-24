@@ -36,6 +36,8 @@ Arquetipo del proyecto y como deberían clasificarse las cosas para entenderlo e
 Una vez concretada la dirección del proyecto se hicieron los siguientes pasos en orden.
  1   -Se recolectaron los audios de cada especie y se ordenaron:
  
+ http://avesdechile.cl (biblioteca de aves de chile)
+ https://xeno-canto.org (biblioteca de cantos de aves geolocalizados)
  ![image](https://github.com/Toomanypanchos/audiv027-2023-2/assets/89993556/77c166fe-c5c6-421c-ad8c-73b8c56cc868)
 
 
@@ -65,14 +67,26 @@ ahora que el código es capaz de reconocer un sonido e ir a buscar la imagen que
 
 ![image](https://github.com/Toomanypanchos/audiv027-2023-2/assets/89993556/a7378acf-6e8e-4205-889e-672158e7febb)
 
-6   -Manipular como se posicionaban las imágenes, primeramente las imágenes se sobreponían encima de ellas por lo que no era posible ver un historial de lo que se escribía (escuchaba) por lo que se determinó un orden en el que se ponían las imágenes usando el concepto de (i) y (i++) para que usando un padding las letras se fueran ordenando de izquierda a derecha, presentándose el problema de que las letras se salían del canvas por lo que se delimito a escribir solo dentro del canvas, llegado el momento de topar con el borde derecho volver a la izquierda considerando el espaciado de una imagen hacia abajo y en el caso de llegar al final del canva volver al inicio y remplazar la imagen que usaba esa posición anteriormente.
+6   -Manipular cómo se posicionaban las imágenes, primeramente las imágenes se sobreponían encima de ellas por lo que no era posible ver un historial de lo que se escribía (escuchaba) por lo que se determinó un orden en el que se ponían las imágenes usando el concepto de (i) y (i++) para que usando un padding las letras se fueran ordenando de izquierda a derecha, presentándose el problema de que las letras se salían del lienzo por lo que se delimitó a escribir solo dentro del canvas, llegado el momento de topar con el borde derecho volver a la izquierda considerando el espaciado de una imagen hacia abajo y en el caso de llegar al final del canva volver al inicio y remplazar la imagen que usaba esa posición anteriormente.
 
 ![image](https://github.com/Toomanypanchos/audiv027-2023-2/assets/89993556/68ba7e25-2d2d-4910-80ee-9d9632f65650)
 
 ### actualidad 
-El código funciona y es capaz de diferenciar sonidos de aves, siendo el mayor problema los espacios de silencio que se generaban entre los cantos de aves, creemos que es algo interesante de igual forma, porque parte del sonido es la falta de este, pero no fuimos más allá respecto a esta decisión
+El código funciona y es capaz de diferenciar sonidos de aves, siendo el mayor problema los espacios de silencio que se generaban entre los cantos de aves, creemos que es algo interesante de igual forma, porque parte del sonido es la falta de este, pero no fuimos más allá respecto a esta decisión.
 
 https://editor.p5js.org/pargato/full/wLlQCdmfT
+
+### Conclusión y proyecciones.
+- La captura de datos y su claridad es super importante para el funcionamiento correcto
+
+- Para la clasificación de sonidos, en particular de aves, que pueden ser similares en varias oportunidades, la data debe ser mas grande para que pueda arrojar un resultado con mayor precision.
+  
+- Cuando existen demasiadas variables el algoritmo es muy facil de confundir y pierde su precision (no necesariamente algo negativo
+  
+- Seria interesante trabajar esto desde un nivel tipografico, no tratando a las letra como imagenes sino como glifos, lo que permitiria una comprension y distribucion mas similar a la escritura
+
+- Con un codigo mejor entrenado podria tratarse la identificación en relacion a los porcentajes con los que se identifique un ave.
+
 
 Referencias 
 -codigo base para clasificar sonidos
