@@ -1,4 +1,4 @@
-# Proyecto final Fiu
+# Proyecto Final Fiu
 
 Inicialmente el proyecto buscaba entrenar un modelo para que pudiera reconocer sonidos de la naturaleza y de la ciudad, la idea era principalmente que luego de que fueran clasificados los sonidos, se generara una representación visual de estos, en un espacio de la pantalla/lienzo, diferenciándose principalmente por los colores que aportaban, siendo los dibujos originados de sonidos de naturaleza, brillantes y coloridos, en contraste con los provenientes de la ciudad, los que no mostrarían más color que una escala de grises.
 
