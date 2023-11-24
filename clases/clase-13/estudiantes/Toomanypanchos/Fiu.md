@@ -1,6 +1,6 @@
 # Proyecto final Fiu
 
-Inicialmente el proyecto buscaba entrenar una para que pudiera reconocer entre sonidos de la naturaleza y de la ciudad, la idea era principalmente que luego de que fueran clasificados los sonidos, se generara una representación visual de estos, en un espacio de la pantalla. Diferenciándose principalmente por los colores que aportaban, siendo los dibujos originados de sonidos de naturaleza, brillantes y coloridos, en contraste con los provenientes de la ciudad, los que no mostrarían más color que una escala de grises.
+Inicialmente el proyecto buscaba entrenar un modelo para que pudiera reconocer sonidos de la naturaleza y de la ciudad, la idea era principalmente que luego de que fueran clasificados los sonidos, se generara una representación visual de estos, en un espacio de la pantalla/lienzo, diferenciándose principalmente por los colores que aportaban, siendo los dibujos originados de sonidos de naturaleza, brillantes y coloridos, en contraste con los provenientes de la ciudad, los que no mostrarían más color que una escala de grises.
 
 Estas formas se irían superponiendo en un espacio para formar una composición, de la que podrían darse conclusiones respecto al tipo de ambiente en que nos encontrábamos.
 
@@ -15,7 +15,7 @@ Realizacion propia
 ---------------------------------------------------------
 
 Durante este proceso nos dimos cuenta de que era mucho más interesante ser capaces de discernir entre diversas especies de aves. y no considerar a el sonido de la naturaleza como uno solo. 
-Tomando la decisión de cambiar el proyecto, manteniendo un enfoque similar, pero solo involucrando sonidos de aves.
+Tomando la decisión de cambiar el proyecto, manteniendo un enfoque similar, pero utilizando unicamente sonidos de aves.
 Esta decisión se toma en parte luego de conversaciones con una compañera que está realizando su proyecto de título respecto a un tema similar.
 
 ## Pequeño Resumen del Proyecto:
@@ -29,6 +29,10 @@ Sitúa una ruta de exploración al cerro la Cruz en la precordillera andina-metr
 Por lo que en el proyecto actual se busca entrenar a una IA para que sea capaz de discernir entre especies de aves dependiendo de sus sonidos.
 los que luego de identificados se traduzcan al abecedario construido por nuestra amiga, letras que se escribirán, simulando un texto y creando párrafos que permitan generar un contexto visual de aquello que se escuchó y fue interpretado por la IA.
 
+Arquetipo del proyecto y como deberían clasificarse las cosas para entenderlo en lenguaje de código.
+
+![image](https://github.com/Toomanypanchos/audiv027-2023-2/assets/89993556/01f8697d-dee5-4add-a3ee-f06c056eed5e)
+
 Una vez concretada la dirección del proyecto se hicieron los siguientes pasos en orden.
  1   -Se recolectaron los audios de cada especie y se ordenaron:
  
@@ -38,8 +42,9 @@ Una vez concretada la dirección del proyecto se hicieron los siguientes pasos e
 2   -Se alimento a la IA con los audios recolectados:
 
 ![image](https://github.com/Toomanypanchos/audiv027-2023-2/assets/89993556/897a1bb3-075d-4401-97a0-b23678c7f038)
+![image](https://github.com/Toomanypanchos/audiv027-2023-2/assets/89993556/cf02b90b-21cf-4487-8298-0bceb7e57684)
 
-algo que destacar de este proceso fue la manipulación los archivos para incrementar la cantidad de muestras con las que alimentábamos al modelo.
+Algo que destacar de este proceso fue la manipulación los archivos para incrementar la cantidad de muestras con las que alimentábamos al modelo.
 esto se hizo cortando los sonidos en diferentes momentos de los cantos de la aves, pensando que asi la IA podría reconocer secciones de los cantos también y no solo uno completo.
 
 ![image](https://github.com/Toomanypanchos/audiv027-2023-2/assets/89993556/b7fcf260-b4ce-4a5f-b97d-ef5ccffe986d)
@@ -55,18 +60,26 @@ Con el modelo entrenado podíamos proceder a escribir el código para utilizarla
 nosotros escribiendo el código 
 ![image](https://github.com/Toomanypanchos/audiv027-2023-2/assets/89993556/fa755f33-4ae5-4cc9-932b-202aea8a0075)
 
-
-
 5   -Convertir letras a imágenes:
 ahora que el código es capaz de reconocer un sonido e ir a buscar la imagen que corresponde a ese sonido se "convirtió" cada letra en una imagen.
 
 ![image](https://github.com/Toomanypanchos/audiv027-2023-2/assets/89993556/a7378acf-6e8e-4205-889e-672158e7febb)
 
-6   -Manipular como se posicionaban las imagenes, primeramente las imagenes se sobreponian encima de ellas por lo que no era posible ver un historial de lo que se escribia (escuchaba) por lo que se determino un orden en el que se ponian las imagenes usando el concepto de (i) y (i++) para que usando un padding las letras se fueran ordenando de izquierda a derecha, presentandose el problema de que las letras se salian del canvas por lo que se delimito a escribir solo dentro del canvas, llegado el momento de topar con el borde derecho volver a la izquierda considerando el espaciado de una imagen hacia abajo y en el caso de llegar al final del canva volver al inicio y remplazar la imagen que usaba esa posicion anteriormente.
+6   -Manipular como se posicionaban las imágenes, primeramente las imágenes se sobreponían encima de ellas por lo que no era posible ver un historial de lo que se escribía (escuchaba) por lo que se determinó un orden en el que se ponían las imágenes usando el concepto de (i) y (i++) para que usando un padding las letras se fueran ordenando de izquierda a derecha, presentándose el problema de que las letras se salían del canvas por lo que se delimito a escribir solo dentro del canvas, llegado el momento de topar con el borde derecho volver a la izquierda considerando el espaciado de una imagen hacia abajo y en el caso de llegar al final del canva volver al inicio y remplazar la imagen que usaba esa posición anteriormente.
+
+![image](https://github.com/Toomanypanchos/audiv027-2023-2/assets/89993556/68ba7e25-2d2d-4910-80ee-9d9632f65650)
 
 ### actualidad 
-el codigo funciona y es capaz de difetrenciar sonidos de aves, siendo el mayor problema los espacios de silencio que se generaban entre los cantos de avez, creemos que es algo interesante de igual forma, porque parte del sonido es la falta de estre, pero no fuimos mas allá respecto a esta desicion 
+El código funciona y es capaz de diferenciar sonidos de aves, siendo el mayor problema los espacios de silencio que se generaban entre los cantos de aves, creemos que es algo interesante de igual forma, porque parte del sonido es la falta de este, pero no fuimos más allá respecto a esta decisión
 
 https://editor.p5js.org/pargato/full/wLlQCdmfT
+
+Referencias 
+-codigo base para clasificar sonidos
+https://github.com/orgs/CodingTrain/repositories?page=2
+
+https://p5js.org/reference/#/p5/image
+
+https://www.youtube.com/@TheCodingTrain
 
 
