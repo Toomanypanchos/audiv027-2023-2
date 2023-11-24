@@ -29,7 +29,7 @@ Sitúa una ruta de exploración al cerro la Cruz en la precordillera andina-metr
 Por lo que en el proyecto actual se busca entrenar a una IA para que sea capaz de discernir entre especies de aves dependiendo de sus sonidos.
 los que luego de identificados se traduzcan al abecedario construido por nuestra amiga, letras que se escribirán, simulando un texto y creando párrafos que permitan generar un contexto visual de aquello que se escuchó y fue interpretado por la IA.
 
-Arquetipo del proyecto y como deberían clasificarse las cosas para entenderlo en lenguaje de código.
+Modelo de como deberian clasificarse los objetos para poder ordenar la imagenes.
 
 ![image](https://github.com/Toomanypanchos/audiv027-2023-2/assets/89993556/01f8697d-dee5-4add-a3ee-f06c056eed5e)
 
