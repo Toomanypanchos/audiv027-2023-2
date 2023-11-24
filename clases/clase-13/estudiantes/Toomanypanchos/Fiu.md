@@ -70,6 +70,3 @@ el codigo funciona y es capaz de difetrenciar sonidos de aves, siendo el mayor p
 https://editor.p5js.org/pargato/full/wLlQCdmfT
 
 
-
-
-texto
