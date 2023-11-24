@@ -50,16 +50,25 @@ esto se hizo cortando los sonidos en diferentes momentos de los cantos de la ave
 
 Con el modelo entrenado podíamos proceder a escribir el código para utilizarla.
 
-5   -Escribir Codigó
+4   -Escribir Codigó
 
 nosotros escribiendo el código 
 ![image](https://github.com/Toomanypanchos/audiv027-2023-2/assets/89993556/fa755f33-4ae5-4cc9-932b-202aea8a0075)
+
 
 
 5   -Convertir letras a imágenes:
 ahora que el código es capaz de reconocer un sonido e ir a buscar la imagen que corresponde a ese sonido se "convirtió" cada letra en una imagen.
 
 ![image](https://github.com/Toomanypanchos/audiv027-2023-2/assets/89993556/a7378acf-6e8e-4205-889e-672158e7febb)
+
+6   -Manipular como se posicionaban las imagenes, primeramente las imagenes se sobreponian encima de ellas por lo que no era posible ver un historial de lo que se escribia (escuchaba) por lo que se determino un orden en el que se ponian las imagenes usando el concepto de (i) y (i++) para que usando un padding las letras se fueran ordenando de izquierda a derecha, presentandose el problema de que las letras se salian del canvas por lo que se delimito a escribir solo dentro del canvas, llegado el momento de topar con el borde derecho volver a la izquierda considerando el espaciado de una imagen hacia abajo y en el caso de llegar al final del canva volver al inicio y remplazar la imagen que usaba esa posicion anteriormente.
+
+### actualidad 
+el codigo funciona y es capaz de difetrenciar sonidos de aves, siendo el mayor problema los espacios de silencio que se generaban entre los cantos de avez, creemos que es algo interesante de igual forma, porque parte del sonido es la falta de estre, pero no fuimos mas allá respecto a esta desicion 
+
+https://editor.p5js.org/pargato/full/wLlQCdmfT
+
 
 
 
