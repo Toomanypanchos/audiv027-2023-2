@@ -45,6 +45,7 @@ esto se hizo cortando los sonidos en diferentes momentos de los cantos de la ave
 ![image](https://github.com/Toomanypanchos/audiv027-2023-2/assets/89993556/b7fcf260-b4ce-4a5f-b97d-ef5ccffe986d)
 
 -Se entreno la IA con 200 épocas:
+
 ![image](https://github.com/Toomanypanchos/audiv027-2023-2/assets/89993556/99fb5783-a7b6-4518-a080-1f33ccabffdd)
 
 Con el modelo entrenado podíamos proceder a escribir el código para utilizarla.
